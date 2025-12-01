@@ -43,7 +43,7 @@ export const HERO_INFO = {
 // INFORMAÇÕES SOBRE A COMUNIDADE
 export const COMMUNITY_INFO = {
   title: "Nossa Comunidade, Nossa Missão",
-  description: "Um breve parágrafo sobre a história e os valores da igreja, e o que ela representa para os fiéis. Nossa missão é ser um farol de esperança e um centro de vida espiritual para todos que buscam conforto e orientação.",
+  description: "Nossa missão é ser um farol de esperança e um centro de vida espiritual para todos que buscam conforto e orientação.",
   buttonText: "Conheça nossos horários",
   buttonColor: "#EA2831",
   buttonHoverColor: "#ce2c34ff",
