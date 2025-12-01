@@ -1,5 +1,6 @@
 import { Box, Typography, IconButton } from "@mui/material";
 import { CONTACT_INFO } from "../../constants/contactInfo";
+import InstagramIcon from "@mui/icons-material/Instagram";
 
 function Footer() {
   return (
@@ -31,17 +32,10 @@ function Footer() {
       {/* Ícones Sociais */}
       <Box sx={{ display: "flex", gap: 2 }}>
         <IconButton
-          href="#"
-          sx={{ color: "#EA2831", fontSize: 28 }}
+          href="https://www.instagram.com/comunidadesantoexpeditozl?igsh=MmpscDhmc2d0em45"
+          sx={{ color: "#EA2831", fontSize: 32 }}
         >
-          <span className="material-symbols-outlined">favorite</span>
-        </IconButton>
-
-        <IconButton
-          href="#"
-          sx={{ color: "#EA2831", fontSize: 28 }}
-        >
-          <span className="material-symbols-outlined">share</span>
+          <InstagramIcon fontSize="inherit" />
         </IconButton>
 
         <IconButton
