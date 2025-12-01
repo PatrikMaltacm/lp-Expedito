@@ -12,7 +12,7 @@ import Footer from './components/Footer';
 
 function App() {
   return (
-    <Box sx={{ display: 'flex', alignItems: 'center', justifyContent: "center", flexDirection: "column" }}>
+    <Box>
       <Header />
       <Hero />
       <NossaComunidade />

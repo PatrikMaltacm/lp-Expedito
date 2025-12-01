@@ -9,12 +9,11 @@ const Hero = () => {
             sx={{
                 position: "relative",
                 mt: { xs: '6em', sm: '7em', md: '8em' },
-                width: { xs: '95%', sm: '92%', md: '90%' },
+                width: { xs: '100%', sm: '100%', md: '100%' },
                 height: { xs: '400px', sm: '550px', md: '800px' },
                 backgroundImage: `url(${HERO_INFO.backgroundImage})`,
                 backgroundSize: "cover",
                 backgroundPosition: "center",
-                borderRadius: 4,
                 display: "flex",
                 flexDirection: "column",
                 alignItems: "center",
