@@ -1,6 +1,8 @@
 // ==================== INFORMAÇÕES PERSONALIZÁVEIS ====================
 // Todas as informações da comunidade estão centralizadas aqui para fácil manutenção
 
+import imgFrente from '../assets/img-frente-igreja.jpg'
+
 // INFORMAÇÕES DE CONTATO E ENDEREÇO
 export const CONTACT_INFO = {
   // Endereço
@@ -33,7 +35,7 @@ export const HERO_INFO = {
   title: "Bem-vindo à Comunidade",
   subtitle: "Santo Expedito",
   buttonText: "Conheça nossos horários",
-  backgroundImage: "https://lh3.googleusercontent.com/aida-public/AB6AXuD-lZYrlK8qKUiPq18UQMOjbeFALJsOnDG9-I3b7XrQ3jt4-rH8pKwfJinNPMcR_kWlUbdqGovJHKoNFrj-eLKnyGaWLiyMjx2KzCSVJARn6Ky-BG2Gl2EWkw_zDfKuspaW5YyRSfVvMVD13aPynxgDrtT5oQbn1c0V1fN5Xd5-5q-V0WR5VWqFijqDy4aOcBZeTySFGi1zkbmDah7ju1hQkZum4_cgzOPoya8TAJXRI1lfsfuKpiKCDT52qP-gpwko9zSqgRZPzg2-",
+  backgroundImage: imgFrente,
   buttonColor: "#FAC638",
   buttonHoverColor: "#F5B82A",
 };

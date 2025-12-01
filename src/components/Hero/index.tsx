@@ -13,6 +13,7 @@ const Hero = () => {
                 height: { xs: '400px', sm: '550px', md: '800px' },
                 backgroundImage: `url(${HERO_INFO.backgroundImage})`,
                 backgroundSize: "cover",
+                backgroundRepeat: "no-repeat",
                 backgroundPosition: "center",
                 display: "flex",
                 flexDirection: "column",
