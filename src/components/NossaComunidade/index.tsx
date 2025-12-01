@@ -1,5 +1,6 @@
 import { Box, Typography, Button, Card } from '@mui/material'
 import { COMMUNITY_INFO, COMMUNITY_CARDS } from '../../constants/contactInfo';
+import { ScrollLink } from '../ScrollLink';
 
 const NossaComunidade = () => {
     return (
@@ -58,7 +59,7 @@ const NossaComunidade = () => {
                     mt: 2
                 }}
             >
-                {COMMUNITY_INFO.buttonText}
+                <ScrollLink href="#horarios" color="inherit">{COMMUNITY_INFO.buttonText}</ScrollLink>
             </Button>
 
             {/* CARDS */}

@@ -1,5 +1,7 @@
 import { Box, Typography, Button } from '@mui/material'
 import { HERO_INFO } from '../../constants/contactInfo';
+import { ScrollLink } from '../ScrollLink';
+
 
 const Hero = () => {
 
@@ -53,7 +55,7 @@ const Hero = () => {
                     }
                 }}
             >
-                {HERO_INFO.buttonText}
+                <ScrollLink href="#horarios" color="inherit">{HERO_INFO.buttonText}</ScrollLink>
             </Button>
         </Box>
     )
