@@ -20,7 +20,7 @@ export const CONTACT_INFO = {
   phone: "(11) 98765-4321",
 
   // Email
-  email: "contato@santoexpedito.org",
+  email: "",
 
   // Comunidade
   communityName: "Comunidade Santo Expedito Zona Leste",
